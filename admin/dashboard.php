@@ -748,7 +748,7 @@ if (!empty($admin['ad_tamper_ts'])) {
                 <p class="nuke-confirm-text">你即将删除网站的所有文件，此操作<strong>不可恢复</strong>。</p>
                 <p class="nuke-confirm-text">请在下方输入 <code>确认删除</code> 并验证密码以继续：</p>
                 <div class="form-group">
-                    <input type="text" id="nukeConfirmInput" placeholder="请输入"确认删除"" autocomplete="off" spellcheck="false">
+                    <input type="text" id="nukeConfirmInput" placeholder='请输入"确认删除"' autocomplete="off" spellcheck="false">
                 </div>
                 <div class="form-group">
                     <input type="password" id="nukePasswordInput" placeholder="请输入当前登录密码" autocomplete="off">
